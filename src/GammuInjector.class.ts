@@ -3,7 +3,7 @@ import { Statement, Database as sql3Database } from 'sqlite3'
 
 export default class GammuInjector {
 
-    // Gammu doesn't support compressing
+    // Gammu doesn't support compression
     // @see https://readthedocs.org/projects/gammu/downloads/pdf/latest/
     public compression = 'Default_No_Compression'
 
